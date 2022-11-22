@@ -1,0 +1,15 @@
+{
+  "name": "xtoys-guide",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.26",
+    "markdown-it-imsize": "^2.0.1",
+    "vuepress": "^2.0.0-beta.25"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
