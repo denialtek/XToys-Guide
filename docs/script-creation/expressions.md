@@ -33,4 +33,4 @@ XToys has a few pre-defined functions:
 
 ## Define Additional Functions
 
-Additional functions can be defined by clicking the Custom Javascript button in the top toolbar. Any functions defined in JavaScript that return a number or string can be called within the expression.
+Additional functions can be defined by clicking the Custom JavaScript button in the top toolbar. Any functions defined in JavaScript that return a number or string can be called within the expression.

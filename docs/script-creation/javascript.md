@@ -35,7 +35,7 @@ XToys has a few pre-defined functions:
 
 ## callAction(jsonData[, block]) Method
 
-The callAction(jsonData[, block]) method can be used to call XToys Actions from Javascript. The easiest way of finding out the correct JSON format is to use the 'Add XToys Action' menu item when editing the Javascript.
+The callAction(jsonData[, block]) method can be used to call XToys Actions from JavaScript. The easiest way of finding out the correct JSON format is to use the 'Add XToys Action' menu item when editing the JavaScript.
 
 Some Tease Actions can be set up to block and not continue to the next line of JavaScript until the Action has finished. If you want this behaviour pass in true for the second parameter.
 
@@ -80,7 +80,7 @@ console.log(getVariable("myvar"));
 ```
 
 ## registerTrigger(jsonData, functionReference) Method
-The registerTrigger(jsonData, functionReference) method can be used to set up an XToys Trigger from Javascript. The easiest way of finding out the correct JSON format is to use the 'Add XToys Trigger' menu item when editing the Javascript. The function will be called any time the trigger is fired and will include a map of trigger data.
+The registerTrigger(jsonData, functionReference) method can be used to set up an XToys Trigger from JavaScript. The easiest way of finding out the correct JSON format is to use the 'Add XToys Trigger' menu item when editing the JavaScript. The function will be called any time the trigger is fired and will include a map of trigger data.
 
 Sample:
 ```javascript
