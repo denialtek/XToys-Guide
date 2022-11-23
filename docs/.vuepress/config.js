@@ -32,6 +32,7 @@ module.exports = {
     lastUpdated: false,
     contributors: false,
     logo: 'logo.png',
+    sidebarDepth: 1,
     sidebar: [
       {
         text: 'Introduction',
@@ -70,7 +71,8 @@ module.exports = {
         children: [
           '/script-creation/overview',
           '/script-creation/definitions',
-          '/script-creation/functions',
+          '/script-creation/expressions',
+          '/script-creation/javascript',
           {
             text: 'Examples',
             children: [
