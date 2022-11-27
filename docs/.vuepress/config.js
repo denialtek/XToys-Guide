@@ -95,7 +95,8 @@ module.exports = {
         children: [
           '/tools/webpage-monitor',
           '/tools/process-monitor',
-          '/tools/discord-bot'
+          '/tools/discord-bot',
+          '/tools/webhook'
         ]
       },
       {
