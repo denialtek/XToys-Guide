@@ -1,0 +1,6 @@
+node_modules 
+.temp 
+.cache
+.firebase
+.firebaserc
+docs/.vuepress/dist/

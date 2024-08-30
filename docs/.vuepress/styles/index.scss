@@ -1,0 +1,28 @@
+.page img {
+  border: 1px solid #bbb;
+}
+
+.image-grid p {
+  background-color: var(--c-tip-bg);
+  padding: 8px;
+}
+
+:root {
+  // brand colors
+  --c-brand: #a002e3;
+  --c-brand-light: #ba68c8;
+  --search-result-width: 100% !important;
+}
+
+.suggestions {
+  position: fixed !important;
+  left: 0vw !important;
+  top: calc(var(--navbar-line-height) + 7px) !important;
+  max-width: 100% !important;
+}
+
+html.dark {
+  // brand colors
+  --c-brand: #a002e3;
+  --c-brand-light: #ba68c8;
+}
